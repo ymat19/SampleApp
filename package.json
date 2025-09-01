@@ -1,0 +1,11 @@
+{
+  "name": "sampleapp",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@8.15.4",
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "preview": "pnpm --filter web preview"
+  }
+}
